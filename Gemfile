@@ -1,9 +1,12 @@
+source 'https://code.stripe.com'
 source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
-gem 'devise'
+gem 'omniauth-facebook'
+gem 'stripe'
+gem devise'
 gem 'simple_form'
 gem 'country_select'
 gem 'cancancan', '~> 1.9'
